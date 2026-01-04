@@ -2,7 +2,7 @@ name: Clear Workflow Run History
 
 on:
   schedule:
-    - cron: '0 0 */3 * *' # Run every 3 hours
+    - cron: '0 */3 * * *' # Run every 3 hours
   workflow_dispatch: # 允许手动触发工作流
 
 jobs:
